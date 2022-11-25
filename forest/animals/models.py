@@ -12,3 +12,12 @@ class Animal(models.Model):
 
     def __str__(self):
         return f"Meet {self.name} the {self.type} that is {self.color} and {self.age} years old."
+
+
+#Example JSON
+# {
+#     "type": "Grizzly",
+#     "name": "Nick",
+#     "color": "Brown",
+#     "age": 10
+# }

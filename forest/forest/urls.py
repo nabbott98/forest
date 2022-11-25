@@ -21,4 +21,5 @@ urlpatterns = [
   path('admin/', admin.site.urls),
   # Add the line below
   path('trees/', include('trees.urls')),
+  path('animals/', include('animals.urls')),
 ]
