@@ -20,5 +20,5 @@ from django.contrib import admin
 urlpatterns = [
   path('admin/', admin.site.urls),
   # Add the line below
-  path('', include('trees.urls'))
+  path('trees/', include('trees.urls')),
 ]
