@@ -1,7 +1,7 @@
 # forest-main
 # Django Forest
 
-An app to catalog things in the forest including animals and trees. Created using Python, Django, Postgres.
+An app to catalog things in the forest including animals and trees. Trees can be added to a park through a one to many relationship. Created using Python, Django, Postgres.
 
 ## Routes Tables
 ### Animal Routes
