@@ -19,12 +19,13 @@
 #     return Response({'trees': serializer.data})
 
 from django.shortcuts import render, get_object_or_404
-from trees.serializers import TreeSerializer
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
-from .models import Tree
+from ..models.tree import Tree
+from trees.serializers import TreeSerializer
+
 
 # Create your views here.
 #localhost:3000/trees/ get post

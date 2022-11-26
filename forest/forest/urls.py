@@ -20,6 +20,6 @@ from django.contrib import admin
 urlpatterns = [
   path('admin/', admin.site.urls),
   # Add the line below
-  path('trees/', include('trees.urls')),
+  path('forest/', include('trees.urls')),
   path('animals/', include('animals.urls')),
 ]
